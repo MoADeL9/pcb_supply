@@ -927,16 +927,16 @@
 		(uuid "69276e5d-eb4d-4e02-9498-00be87567fd7")
 	)
 	(junction
+		(at 166.37 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "940f76d7-bfef-43d7-80d5-3424e78d03f4")
+	)
+	(junction
 		(at 146.05 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ce2df1b3-77d6-4ea2-a346-04ae4fd347dd")
-	)
-	(junction
-		(at 171.45 87.63)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "de6e0988-3051-4623-b92d-36f3c7351e4f")
 	)
 	(junction
 		(at 160.02 114.3)
@@ -1032,7 +1032,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 87.63) (xy 171.45 87.63)
+			(xy 160.02 87.63) (xy 166.37 87.63)
 		)
 		(stroke
 			(width 0)
@@ -1109,6 +1109,16 @@
 			(type default)
 		)
 		(uuid "8583064b-5c54-4d2e-9e1c-071c73011406")
+	)
+	(wire
+		(pts
+			(xy 166.37 87.63) (xy 184.15 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88f642e0-5c4a-48c1-b00f-072bb6820eec")
 	)
 	(wire
 		(pts
@@ -1229,16 +1239,6 @@
 			(type default)
 		)
 		(uuid "f554f381-e0f7-4fea-81df-f31f7fc7924e")
-	)
-	(wire
-		(pts
-			(xy 171.45 87.63) (xy 184.15 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f771f675-7f38-4fe2-8d32-d3d73dab9d66")
 	)
 	(wire
 		(pts
@@ -1776,7 +1776,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 171.45 87.63 0)
+		(at 166.37 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1785,7 +1785,7 @@
 		(fields_autoplaced yes)
 		(uuid "f157e8a1-94d3-46b0-8ad0-994ee90b6451")
 		(property "Reference" "#PWR01"
-			(at 171.45 91.44 0)
+			(at 166.37 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1794,7 +1794,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 171.45 82.55 0)
+			(at 166.37 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1802,7 +1802,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 171.45 87.63 0)
+			(at 166.37 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1811,7 +1811,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 171.45 87.63 0)
+			(at 166.37 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1820,7 +1820,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 171.45 87.63 0)
+			(at 166.37 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
